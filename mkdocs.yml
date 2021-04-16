@@ -1,0 +1,65 @@
+site_name: Williams Argumentation Reference Guide
+site_url: https://pages.github.com/zwilliam12/argument-documentation
+repo_name: 'GitHub'
+repo_url: https://github.com/zwilliam12/argument-documentation/
+edit_uri: edit/master/docs/
+strict: true
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  palette:
+    primary: 'blue'
+    accent: 'light green'
+  feature:
+    tabs: true
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - attr_list
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
+  - markdown.extensions.tables
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+nav:
+- Home: index.md
+- Politics:
+    - Conceptual DebateTrees:
+      - Abortion: 
+        - Comprehensive Abortion: politics/conceptual-debatetrees/abortion/comprehensive-abortion.md
+        - Future Like Ours: politics/conceptual-debatetrees/abortion/future-like-ours.md
+      - Black Lives Matter: politics/conceptual-debatetrees/black-lives-matter.md
+      - Equality of Outcome: politics/conceptual-debatetrees/equality-of-outcome.md
+      - Gender Pay Gap: politics/conceptual-debatetrees/gender-pay-gap.md
+      - Progressive Taxes: politics/conceptual-debatetrees/progressive-taxes.md
+      - 97% Consensus on Global Warming: politics/conceptual-debatetrees/97-consensus.md
+      - The Big Switch: politics/conceptual-debatetrees/party-racism.md
+      - Trump: 
+        - Is He Racist?: politics/conceptual-debatetrees/trump/trump-is-racist.md
+        - Should He Concede?: politics/conceptual-debatetrees/trump/trump-should-concede.md
+    - Red Pill Guides:
+    - Topical Research:
+- Religion:
+- DebateTree (Meta):
+- Real DebateTree Instances:
+- Argument Analysis:
